@@ -8,7 +8,7 @@ public:
 	// Output is taken as the function return value.
 	bool checkIfSorted(std::vector<int> arr) {
 		// Code here
-		int n=size(arr);
+		int n=arr.size();
 		int cnt=0;
 		for(int i=0;i<n;i++){
 			if(arr[i]>arr[(i+1)%n])cnt++;
