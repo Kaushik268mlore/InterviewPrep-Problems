@@ -62,12 +62,25 @@ typedef long long ll;
 //     }
 // };
 void solve(){
+    string s;
+    // getline(cin,s);
+    cin>>s;
+    string pi="314159265358979323846264338327";
+    int i=0,res=0;
+    int n=s.size();
+    for(i=0;i<n;i++)
+    {
+       
+        if(s[i]==pi[i])res++;
+        else {break;}
+    }
+    cout<<res<<"\n";
     
 }
 int32_t main(){
     ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
     int t=1;
-    // cin>>t;
+    cin>>t;
     while(t--){
         solve();
     }
