@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/InterviewPrep-Problems",
-      "program": "e:/InterviewPrep-Problems/build/Debug/outDebug",
+      "cwd": "e:/InterviewPrep-Problems/STL_REVISION",
+      "program": "e:/InterviewPrep-Problems/STL_REVISION/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
